@@ -1,17 +1,16 @@
-fn main(){
+fn main() {
     println!("Hello!!");
     // rust do not care about where we call our function before initializing it or after
     another_function(50, '$')
 }
 // unit label is a type 'char', this func accept
 // two parameters
-fn another_function(y: i32, unit_label: char){
+fn another_function(y: i32, unit_label: char) {
     call_seven();
     let p = plus_one(20);
     println!("the value of p: {p}");
     println!("the value of y is: {y}{unit_label}")
 }
-
 
 // functions retirning value
 // when we use ->, the function will return a value, and we have to declare data type
@@ -22,8 +21,8 @@ fn seven() -> i32 {
 }
 
 fn call_seven() {
-   let x = seven();
-   println!("The value of x is: {x}")
+    let x = seven();
+    println!("The value of x is: {x}")
 }
 
 fn plus_one(x: i32) -> i32 {
