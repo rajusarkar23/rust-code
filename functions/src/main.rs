@@ -33,4 +33,4 @@ fn plus_one(x: i32) -> i32 {
 // if something return a value then it is an expression
 // if something do not return an value then it is an statement
 // if there is no semicolon at the end then it will return an value.
-
+// if it has semicolon then this will not return a value
