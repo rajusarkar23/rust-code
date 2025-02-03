@@ -12,7 +12,7 @@ fn another_function(y: i32, unit_label: char) {
     println!("the value of y is: {y}{unit_label}")
 }
 
-// functions retirning value
+// functions returning value
 // when we use ->, the function will return a value, and we have to declare data type
 // body of the function is lonely semicolon,
 //which means its an expression
